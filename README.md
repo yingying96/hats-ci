@@ -77,7 +77,6 @@ You can either use
 #### Folder Structure
 
     hats
-    ├── ...
     ├── robot_automation        
     │   ├── browserlogs         # Logs for web browsers (E.g. Chrome, Firefox)
     │   ├── drivers             # Chrome Drivers for Windows, Mac and Linux
@@ -102,6 +101,10 @@ You can either use
 1. Open a terminal.
 2. Ensure `(hats)` virtuelenv has loaded.  
 3. Navigate to robot automation folder located within the hats folder.
+4. Run the main robot script
+
+    ```
+    robot hatslib.robot
 
 ### Testing with Android
 1. Make sure all $ANDROID environment variables are set.

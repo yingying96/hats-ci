@@ -8,8 +8,8 @@ We have put together this step by step guide to assist new windows developers to
 * View logs and recordings generated
 
 ## Step 0. Pre-requisite
-Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
-Basic understanding of robot framework (Link to robot framework guide here)
+* Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
+* Basic understanding of robot framework (Link to robot framework guide here)
 
 
 ## Step 1. Check out the folder structure

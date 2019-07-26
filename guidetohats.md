@@ -52,3 +52,11 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    *For this guide, we have excluded android automation and focused on browser automation*
    
    
+## Step 3. Browser automation in session
+
+
+## Step 4. Verifying the results
+
+Through logs
+
+Note: Screen recording is only available for automation of android devices and not browser automation

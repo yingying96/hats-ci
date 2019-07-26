@@ -18,11 +18,12 @@ As a group of passionate quality engineers, we want to lower the barrier of entr
 
 ##### Operating Systems
 * Windows 7, 8.1, 10 (64-bit)
-* Mac OS X El-Capitan, macOS Sierra, High Sierra
+* Mac OS X El-Capitan, macOS Sierra, High Sierra, Mojave
 * Linux CentOS, Fedora, Ubuntu instructions are available at https://github.com/younglim/hats-linux .
 
 ##### Browsers
 * Microsoft Internet Explorer 11
+* Microsoft Edge 44
 * Google Chrome 54 (or newer)
 * Mozilla Firefox 54 (or newer)
 * Apple Safari 10 and later
@@ -73,20 +74,34 @@ You can either use
 
 ### Running a test
 
+#### Folder Structure
+
+    hats
+    ├── ...
+    ├── robot_automation        
+    │   ├── browserlogs         # Logs for web browsers (E.g. Chrome, Firefox)
+    │   ├── drivers             # Chrome Drivers for Windows, Mac and Linux
+    |   ├── hatslib.robot       # Main Robot Script
+    |   ├── logs                # Logs for mobile devices (E.g. Android)
+    |   ├── src                 # Python Source files
+    │   └── testscripts         # Robot Test Scripts
+    └── ...
+
+
 #### Windows
 1. Open a command prompt. Run `hats_shell`.
-2. Run the sample test script
-```
-cd "C:\Program Files\hats"
-pybot testpage\test.robot
-```
+2. Navigate to robot automation folder 
 
+    ```
+    cd "C:\Program Files\hats\robot_automation"
+3. Run the main robot script
+
+    ```
+    robot hatslib.robot
 #### Mac
-
 1. Open a terminal.
 2. Ensure `(hats)` virtuelenv has loaded.  
-3. Run pybot from bin folder.
-
+3. Navigate to robot automation folder located within the hats folder.
 
 ### Testing with Android
 1. Make sure all $ANDROID environment variables are set.

@@ -41,12 +41,14 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    ```
    cd C:\Program Files\hats\robot_automation
 3. Run the main robot script to execute the other test scripts
-
-
-   ![img]((https://i.imgur.com/iDZyATT.png)
-
    ```
    robot hatslib.robot
    ```
+   
+   Test scripts excuted by hatslib.robot (Main robot script)
+   
+   ![img](https://i.imgur.com/iDZyATT.png)
+
+   *For this guide, we have excluded android automation and focused on browser automation*
    
    

@@ -8,14 +8,21 @@ We have put together this step by step guide to assist new developers to use hat
 * View logs and recordings generated
 
 ## Step 0. Pre-requisites
-Ensure that you have already 
-* Downloaded hats-ci 
+Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
 
-## Motivation
-We believe that agile quality practices accelerate the delivery of quality applications.
-To deal with a growing test backlog, test automation is a more scalable and cost-effective approach.
+## Step 1. Understand the folder structure
 
-As a group of passionate quality engineers, we want to lower the barrier of entry to web app test automation so that everyone can contribute to software quality.
+    hats
+    ├── robot_automation        
+    │   ├── browserlogs         # Logs for web browsers (E.g. Chrome, Firefox)
+    │   ├── drivers             # Chrome Drivers for Windows, Mac and Linux
+    |   ├── hatslib.robot       # Main Robot Script
+    |   ├── logs                # Logs for mobile devices (E.g. Android)
+    |   ├── src                 # Python Source files
+    │   └── testscripts         # Robot Test Scripts
+    └── ...
+
+
 
 ## Supported Platforms
 *hats* has been tested on the following platforms:

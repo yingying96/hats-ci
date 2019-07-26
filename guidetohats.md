@@ -18,13 +18,26 @@ Navigate to the robot_automation folder
 
     hats
     ├── robot_automation        
-    │   ├── browserlogs         # Logs for web browsers (E.g. Chrome, Firefox)
-    │   ├── drivers             # Chrome Drivers for Windows, Mac and Linux
-    |   ├── hatslib.robot       # Main Robot Script
-    |   ├── logs                # Logs for mobile devices (E.g. Android)
-    |   ├── src                 # Python Source files
-    │   └── testscripts         # Robot Test Scripts
+    │   ├── browserlogs              # Logs for web browsers (E.g. Chrome, Firefox)
+    │   ├── drivers                  # Chrome Drivers for Windows, Mac and Linux
+    |   ├── hatslib.robot            # Main Robot Script
+    |   ├── logs                     # Logs for mobile devices (E.g. Android)
+    |   ├── src                      # Python Source files
+    │   └── testscripts              # Robot Test Scripts
+    |       ├── web_test.robot
+    |       ├── resource.robot
+    |       ├── android.robot
+    |       ├── android_app.robot
+    |
     └── ...
+
+**testscripts**
+The folder contains sample working robot test scripts for browser and mobile application automation
+* web_test.robot
+* resource.robot
+* android.robot
+* android_app.robot
+
 
 ## Step 2. Getting started with browser automation
 

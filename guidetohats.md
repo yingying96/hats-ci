@@ -41,7 +41,12 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    ```
    cd C:\Program Files\hats\robot_automation
 3. Run the main robot script to execute the other test scripts
+
+
+   ![img]((https://i.imgur.com/iDZyATT.png)
+
    ```
    robot hatslib.robot
-
-   https://imgur.com/iDZyATT
+   ```
+   
+   

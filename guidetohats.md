@@ -1,16 +1,20 @@
 # Guide to hats-ci 
 
-We have put together this step by step guide to assist new developers to use hats-ci.
+We have put together this step by step guide to assist new windows/mac OS developers to use hats-ci. 
 
 **You will learn how to:**
 * Get started with Hats-ci
 * Run robot scripts using Hats-ci
 * View logs and recordings generated
 
-## Step 0. Pre-requisites
+## Step 0. Pre-requisite
 Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
 
-## Step 1. Understand the folder structure
+## Step 1. Check out the folder structure
+
+After downloading the latest version of hats-ci, you will see hats folder.
+
+Navigate to the robot_automation folder
 
     hats
     ├── robot_automation        
@@ -22,15 +26,15 @@ Ensure that you have already downloaded the latest version of [hats-ci](https://
     │   └── testscripts         # Robot Test Scripts
     └── ...
 
+## Step 2. Getting started with hats-ci
 
+1. Load hats virtual environment on your command prompt/terminal
+   * Windows: Run `hats_shell`
+   * Mac: 
 
-## Supported Platforms
-*hats* has been tested on the following platforms:
+2. 
+   
 
-##### Operating Systems
-* Windows 7, 8.1, 10 (64-bit)
-* Mac OS X El-Capitan, macOS Sierra, High Sierra, Mojave
-* Linux CentOS, Fedora, Ubuntu instructions are available at https://github.com/younglim/hats-linux .
 
 ##### Browsers
 * Microsoft Internet Explorer 11
@@ -38,6 +42,8 @@ Ensure that you have already downloaded the latest version of [hats-ci](https://
 * Google Chrome 54 (or newer)
 * Mozilla Firefox 54 (or newer)
 * Apple Safari 10 and later
+
+
 
 ## Recommended: User Setup (Offline Installer)
 Steps recommended for quickly getting started on automated testing.

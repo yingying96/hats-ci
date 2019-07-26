@@ -105,7 +105,6 @@ You can either use
 
     ```
     robot hatslib.robot
-
 ### Testing with Android
 1. Make sure all $ANDROID environment variables are set.
 2. To programatically boot the Android Virtual Device(AVD), the commmand `emulator -avd testAVD` must be run from the *tools* folder in the *android-sdk* directory.

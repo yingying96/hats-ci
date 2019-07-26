@@ -23,21 +23,12 @@ Navigate to the robot_automation folder
     |   ├── hatslib.robot            # Main Robot Script
     |   ├── logs                     # Logs for mobile devices (E.g. Android)
     |   ├── src                      # Python Source files
-    │   └── testscripts              # Robot Test Scripts
-    |       ├── web_test.robot
+    │   └── testscripts              # Sample Robot Test Scripts
+    |       ├── web_test.robot       # For browser automation
     |       ├── resource.robot
-    |       ├── android.robot
-    |       ├── android_app.robot
-    |
+    |       ├── android.robot        # For android google chrome
+    |       └── android_app.robot    # For android mobile applications
     └── ...
-
-**testscripts**
-The folder contains sample working robot test scripts for browser and mobile application automation
-* web_test.robot
-* resource.robot
-* android.robot
-* android_app.robot
-
 
 ## Step 2. Getting started with browser automation
 

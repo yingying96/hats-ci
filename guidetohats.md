@@ -9,12 +9,14 @@ We have put together this step by step guide to assist new windows developers to
 
 ## Step 0. Pre-requisite
 Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
+Basic understanding of robot framework (Link to robot framework guide here)
+
 
 ## Step 1. Check out the folder structure
 
 After downloading the latest version of hats-ci, you will see hats folder.
 
-Navigate to the robot_automation folder
+Navigate to the robot_automation folder as shown below to explore the folder structure
 
     hats
     ├── robot_automation        
@@ -41,3 +43,5 @@ Navigate to the robot_automation folder
 3. Run the main robot script to execute the other test scripts
    ```
    robot hatslib.robot
+
+   https://imgur.com/iDZyATT

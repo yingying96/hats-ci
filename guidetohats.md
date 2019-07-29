@@ -46,9 +46,11 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    robot hatslib.robot
    ```
    
+   <img src="https://imgur.com/mEFPTll.png" width="500">
+   
    Snippet of hatslib.robot (Main robot script)
    
-   ![img](https://i.imgur.com/iDZyATT.png)
+   <img src="https://i.imgur.com/iDZyATT.png" width="600">
 
    *For this guide, we have excluded android automation (android.robot) and focused on browser automation (web_test.robot)*
    

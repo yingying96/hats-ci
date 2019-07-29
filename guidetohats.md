@@ -7,8 +7,8 @@ We have put together this step by step guide to assist new developers to use hat
 * Run robot scripts using Hats-ci
 * View logs and recordings generated
 
-## Step 0. Pre-requisite
-* Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
+## Step 0. Pre-requisites
+* Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci) and [Scrcpy](https://github.com/Genymobile/scrcpy) 
 * Ensure that you are connected to at least one android device
 * Downloaded the web browsers (E.g. Google Chrome, Microsoft Edge) that you want to test on 
 * Basic understanding of [robot framework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html) 
@@ -34,7 +34,7 @@ Navigate to the robot_automation folder as shown below to explore the folder str
     |       └── android_app.robot    # For android mobile applications
     └── ...
 
-## Step 2. Getting started with mobile and browser automation
+## Step 2. Get started with mobile and browser automation
 
 1. Load hats virtual environment on your command prompt by running `hats_shell`
 
@@ -51,14 +51,14 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    
    <img src="https://imgur.com/mEFPTll.png" width="500">
    
-4. Review the snippet of hatslib.robot (Main robot script)
+4. Review our snippet of hatslib.robot (Main robot script)
    
    <img src="https://imgur.com/jV2GJQ1.png" width="600">
    
    *Note: Excluded Android_app.robot test script and focused on web and mobile automation of browsers
    
 
-## Step 3. Android Mobile automation in session
+## Step 3. Android automation in session
 
 1. Once you run hatslib.robot (main robot script), the robot test scripts located within the test scripts folder are executed
 
@@ -73,10 +73,10 @@ Navigate to the robot_automation folder as shown below to explore the folder str
 
 1. Once android.robot has completed running, it will move on to the second robot test script - web_test.robot
 
-2. Multiple web browser will launch at the same time
+2. The test will be executed and multiple web browser will launch at the same time
 
 
-## Step 4. Verifying the results
+## Step 4. Verify the results
 
 1. Once the test has completed, you can view the logs and report located within browserlogs and logs folder for more details
 
@@ -84,6 +84,8 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    
 2. Screen recordings of the robot test scripts executing on android devices are saved within the logs folder
 
-    
+   Sample mobile screen recordings shown below
+   
+   ![img](https://media.giphy.com/media/SqTvGesL8C228P0C95/giphy.gif)
 
    *Note: Screen recording is only available for automation of android devices and not browser automation

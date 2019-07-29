@@ -50,7 +50,7 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    
    ![img](https://i.imgur.com/iDZyATT.png)
 
-   *For this guide, we have excluded android automation and focused on browser automation*
+   *For this guide, we have excluded android automation (android.robot) and focused on browser automation (web_test.robot)*
    
    
 ## Step 3. Browser automation in session
@@ -67,6 +67,6 @@ Note: Screen recording is only available for automation of android devices and n
 
 1. Once the test has completed, you can view the browser logs folder for more details
 
-
+   ![img](https://media.giphy.com/media/LSckueQa9fnd0hhm3G/giphy.gif)
 
 

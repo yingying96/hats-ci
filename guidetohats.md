@@ -71,11 +71,9 @@ Navigate to the robot_automation folder as shown below to explore the folder str
 
 ## Step 4. Browser automation in session
 
-1. Once android.robot has completed running, it will move on to the second robot test script
+1. Once android.robot has completed running, it will move on to the second robot test script - web_test.robot
 
-2. Multiple web browser will launch at the same time and proceed to www.google.com to search keyword "python"
-
-3. A screenshot will be taken at python's search results page
+2. Multiple web browser will launch at the same time
 
 
 ## Step 4. Verifying the results
@@ -85,5 +83,7 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    ![img](https://media.giphy.com/media/LSckueQa9fnd0hhm3G/giphy.gif)
    
 2. Screen recordings of the robot test scripts executing on android devices are saved within the logs folder
+
+    
 
    *Note: Screen recording is only available for automation of android devices and not browser automation

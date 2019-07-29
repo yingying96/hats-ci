@@ -80,8 +80,10 @@ Navigate to the robot_automation folder as shown below to explore the folder str
 
 ## Step 4. Verifying the results
 
-1. Once the test has completed, you can view the logs and report located within browserlogs folder for more details
+1. Once the test has completed, you can view the logs and report located within browserlogs and logs folder for more details
 
    ![img](https://media.giphy.com/media/LSckueQa9fnd0hhm3G/giphy.gif)
+   
+2. Screen recordings of the robot test scripts executing on android devices are saved within the logs folder
 
-   Note: Screen recording is only available for automation of android devices and not browser automation
+   *Note: Screen recording is only available for automation of android devices and not browser automation

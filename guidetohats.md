@@ -9,6 +9,7 @@ We have put together this step by step guide to assist new developers to use hat
 
 ## Step 0. Pre-requisite
 * Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
+* Ensure that you are connected to at least one android device
 * Downloaded the web browsers (E.g. Google Chrome, Microsoft Edge) that you want to test on 
 * Basic understanding of [robot framework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html) 
 
@@ -33,7 +34,7 @@ Navigate to the robot_automation folder as shown below to explore the folder str
     |       └── android_app.robot    # For android mobile applications
     └── ...
 
-## Step 2. Getting started with browser automation
+## Step 2. Getting started with mobile and browser automation
 
 1. Load hats virtual environment on your command prompt by running `hats_shell`
 
@@ -41,23 +42,36 @@ Navigate to the robot_automation folder as shown below to explore the folder str
 2. Navigate to the robot_automation folder by running the following command on your command prompt
    ```
    cd C:\Program Files\hats\robot_automation
-3. Run the main robot script to execute the other test scripts
+3. Run the main robot script to execute the other robot test scripts
    ```
    robot hatslib.robot
    ```
    
-   The test scripts that are executed by hatslib.robot are shown below
+   The sample robot test scripts that can be executed by hatslib.robot are shown below
    
    <img src="https://imgur.com/mEFPTll.png" width="500">
    
 4. Review the snippet of hatslib.robot (Main robot script)
    
    <img src="https://imgur.com/jV2GJQ1.png" width="600">
-
    
-## Step 3. Browser automation in session
+   *Note: Excluded Android_app.robot test script and focused on web and mobile automation of browsers
+   
 
-1. Once you run hatslib.robot (main robot script), the test scripts located within the test scripts folder is executed.
+## Step 3. Android Mobile automation in session
+
+1. Once you run hatslib.robot (main robot script), the robot test scripts located within the test scripts folder are executed
+
+2. It will run the first robot test script - android.robot
+
+3. Scrcpy will launch the display of the connected android device 
+
+4. You should see the test being executed when the google chrome mobile application is launched
+
+
+## Step 4. Browser automation in session
+
+1. Once android.robot has completed running, it will move on to the second robot test script
 
 2. Multiple web browser will launch at the same time and proceed to www.google.com to search keyword "python"
 

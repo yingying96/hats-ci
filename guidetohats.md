@@ -10,7 +10,7 @@ We have put together this step by step guide to assist new windows developers to
 ## Step 0. Pre-requisite
 * Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
 * Downloaded the web browsers (E.g. Google Chrome, Microsoft Edge) that you want to test on 
-* Basic understanding of robot framework (Link to robot framework guide here)
+* Basic understanding of [robot framework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html) 
 
 
 ## Step 1. Check out the folder structure
@@ -65,7 +65,7 @@ Note: Screen recording is only available for automation of android devices and n
 
 ## Step 4. Verifying the results
 
-1. Once the test has completed, you can view the browser logs folder for more details
+1. Once the test has completed, you can view the logs and report located within browserlogs folder for more details
 
    ![img](https://media.giphy.com/media/LSckueQa9fnd0hhm3G/giphy.gif)
 

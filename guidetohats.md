@@ -9,6 +9,7 @@ We have put together this step by step guide to assist new windows developers to
 
 ## Step 0. Pre-requisite
 * Ensure that you have already downloaded the latest version of [hats-ci](https://github.com/younglim/hats-ci)
+* Downloaded the web browsers (E.g. Google Chrome, Microsoft Edge) that you want to test on 
 * Basic understanding of robot framework (Link to robot framework guide here)
 
 
@@ -45,7 +46,7 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    robot hatslib.robot
    ```
    
-   Test scripts excuted by hatslib.robot (Main robot script)
+   Snippet of hatslib.robot (Main robot script)
    
    ![img](https://i.imgur.com/iDZyATT.png)
 
@@ -54,9 +55,18 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    
 ## Step 3. Browser automation in session
 
+1. Once you run hatslib.robot (main robot script), the test scripts located within the test scripts folder is executed.
+
+2. Multiple web browser will launch at the same time and proceed to www.google.com to search keyword "python"
+
+3. A screenshot will be taken at python's search results page
+
+Note: Screen recording is only available for automation of android devices and not browser automation
 
 ## Step 4. Verifying the results
 
-Through logs
+1. Once the test has completed, you can view the browser logs folder for more details
 
-Note: Screen recording is only available for automation of android devices and not browser automation
+
+
+

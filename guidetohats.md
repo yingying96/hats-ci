@@ -48,12 +48,10 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    
    <img src="https://imgur.com/mEFPTll.png" width="500">
    
-   Snippet of hatslib.robot (Main robot script)
+4. Review the snippet of hatslib.robot (Main robot script)
    
    <img src="https://imgur.com/jV2GJQ1.png" width="600">
 
-   *For this guide, we have excluded android automation (android.robot) and focused on browser automation (web_test.robot)*
-   
    
 ## Step 3. Browser automation in session
 

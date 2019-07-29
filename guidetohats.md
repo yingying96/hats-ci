@@ -46,6 +46,8 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    robot hatslib.robot
    ```
    
+   The test scripts that are executed by hatslib.robot are shown below
+   
    <img src="https://imgur.com/mEFPTll.png" width="500">
    
 4. Review the snippet of hatslib.robot (Main robot script)

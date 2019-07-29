@@ -1,6 +1,6 @@
 # Guide to hats-ci 
 
-We have put together this step by step guide to assist new windows developers to use hats-ci. 
+We have put together this step by step guide to assist new developers to use hats-ci. 
 
 **You will learn how to:**
 * Get started with Hats-ci
@@ -61,7 +61,6 @@ Navigate to the robot_automation folder as shown below to explore the folder str
 
 3. A screenshot will be taken at python's search results page
 
-Note: Screen recording is only available for automation of android devices and not browser automation
 
 ## Step 4. Verifying the results
 
@@ -69,4 +68,4 @@ Note: Screen recording is only available for automation of android devices and n
 
    ![img](https://media.giphy.com/media/LSckueQa9fnd0hhm3G/giphy.gif)
 
-
+   Note: Screen recording is only available for automation of android devices and not browser automation

@@ -50,7 +50,7 @@ Navigate to the robot_automation folder as shown below to explore the folder str
    
    Snippet of hatslib.robot (Main robot script)
    
-   <img src="https://i.imgur.com/iDZyATT.png" width="600">
+   <img src="https://imgur.com/jV2GJQ1.png" width="600">
 
    *For this guide, we have excluded android automation (android.robot) and focused on browser automation (web_test.robot)*
    
